@@ -5,4 +5,13 @@
 --https://www.hackerrank.com/challenges/revising-the-select-query/
 
 select * from CITY where POPULATION > 100000
-and COUNTRYCODE = "usa"
+and COUNTRYCODE = "USA"
+
+select NAME from CITY where POPULATION > 120000
+and COUNTRYCODE = "USA"
+
+select ID, NAME, COUNTRYCODE, DISTRICT, POPULATION from CITY
+
+select * from CITY
+WHERE ID = 1661
+
